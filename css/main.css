@@ -1,0 +1,385 @@
+/*------------------this is my iphone screen--------------*/
+/*@media (min-width: 300px){
+*/	body{
+	background-color:rgb(235, 235, 235);
+	font-family: arial;
+	width: 100%;
+}
+
+#menu_button {
+/*	background-color: red;
+*/	font-size: 17px;
+	width: 50%;
+/*	display: inline-block;
+*/	float: right;
+	text-align: right;
+	padding-top: 14px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	color:rgb(37, 40, 45);
+
+}
+
+#menu_button_2 {
+/*	background-color: red;
+*/	font-size: 20px;
+	width: 50%;
+/*	display: inline-block;
+*/	float: right;
+	text-align: right;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	color:rgb(37, 40, 45);
+
+}
+
+#menu_button_2 a{ text-decoration: none;
+	color: blue;
+	padding-right: 5px;
+	font-size: 17px;
+}
+
+#logo {
+	display: inline-block;
+	font-family: times;
+	font-size: 20px;
+/*	background-color: BLUE;
+*/	width: 50%;
+	padding-top: 10px;
+	padding-left: 15px;
+	padding-right: 50px;
+	text-decoration: none;
+	color:rgb(37, 40, 45);
+}
+
+
+#logo a, #menu_button a {
+	text-decoration: none;
+	color:rgb(37, 40, 45);
+}
+
+#menu_button a {
+	padding-right: 5px;
+}
+
+#sardines, #luminary {
+/*	background-color: red;
+*/	text-decoration: none;
+    text-align: center;
+	display: inline-block;
+/*	padding: 50px 100px;
+/	*/
+
+	width: 100%;
+	margin: 0 auto;
+	font-size: 17px;
+	color:rgb(37, 40, 45);
+
+
+}
+
+h2 a {
+/*	background-color: blue;
+*/	display: inline-block;
+	font-size: 15px;
+	padding-top: 10px;
+	padding-left: 17px;
+	padding-bottom: 20px;
+	text-decoration: none;
+	color:blue;
+}
+header-cont { width: 100%;
+	position: fixed;
+/*	margin-top: 20px;
+*/
+}
+header {
+	/*background-color: pink;*/
+	position: fixed;
+	margin: 0 auto;
+	width: 100%;
+	z-index: 1500;
+	margin-top: 10px;
+}
+
+
+a:hover {
+   color:rgb(230, 0, 14);
+}
+
+#menu_button_2 a:hover{
+	color:rgb(230, 0, 14);
+
+}
+#sardines:hover {
+	/*background-color: yellow;*/
+/*	background-image: url('../images/pic1.jpg');
+	display:block;
+
+    position: absolute;
+    left: 123px; /* change this value to one that suits you
+   /* top: 56px;  cha*/
+	color:rgb(230, 0, 14);
+}
+
+
+
+#luminary:hover {
+	color:rgb(230, 0, 14);
+}
+
+#menu_button a:hover {
+	color:rgb(230, 0, 14);
+}
+
+#logo a:hover {
+	color:rgb(230, 0, 14);
+}
+
+/*#logo_index {
+	color: blue;
+}*/
+
+#logo_index a:hover {
+	color:rgb(230, 0, 14);
+}
+
+.sardines, .luminary {
+/*	background-color: yellow;*/
+	/*margin: 100px 300px;*/
+
+padding-top: 200px
+}
+
+section{
+	margin-top: 0px;
+}
+.gallery_wrap{
+/*	margin-top: 50px;
+*/
+/*	background-color: pink;
+*/padding-top: 120px;
+}
+.gallery-links{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+/*	background-color: yellow;
+*//*	padding-left: 200px;
+*/}
+
+.gallery-img{
+	flex-basis: 10;
+	margin: 5px;
+/*	background-color: yellow;
+*/}
+
+.gallery-img img{
+	width: 350px;
+	transition: all 200ms ease-in-out;
+	-webkit-transition: all 200ms ease-in-out;
+	-o-transition: all 200ms ease-in-out;
+}
+
+.gallery-img:hover {
+	z-index: 1;
+}
+
+.gallery-img img:hover {
+	width: 360px;
+
+}
+
+
+ul {
+	padding-top: 10px;
+	padding-left: 20px;
+	text-decoration: none;
+/*	background-color: red;
+*//*	line-height: 0px;*/
+}
+
+
+
+h3 a{
+	color: blue;
+	text-decoration:none;
+/*	background-color: red;
+*/
+}
+
+p {
+	font-weight: lighter;
+/*	background-color: red;
+*/	font-size: 13px;
+/*	margin: 20px;
+*/	line-height: 17px;
+	color: blue;
+	margin-bottom: 10px;
+
+}
+
+h4 {
+/*	background-color: red;
+*/	font-weight: bold;
+	font-size: 13px;
+	color: blue;
+
+}
+
+.wrapper {
+/*	background-color: red;
+*/	margin: 150px 300px 0px 20px;
+	display: inline-block;
+}
+
+p a{text-decoration: none;
+color: blue;
+}
+
+.wrapper_bio {
+	/* background-color: red; */
+
+margin: 150px 20px 20px 20px;
+	display: inline-block;
+	width: 300px;
+}
+
+.wrapper_gallery {
+	margin: 150px 300px 20px 210px;
+	display: inline-block;
+}
+
+p a{text-decoration: none;
+color: blue;
+}
+
+
+/*------------------this is my ipad screen--------------*/
+@media (min-width: 768px) {
+.wrapper_bio {
+/*	background-color: red;
+*/	margin: 150px 400px 20px 20px;
+	display: inline-block;
+	width: 400px;
+}
+
+.wrapper {
+/*	background-color: red;
+*/	margin: 150px 1400px 0px 20px;
+
+	display: inline-block;
+
+}
+
+}
+
+
+/*------------------this is my browser screen--------------
+*/
+@media (min-width:1200px){
+	body{
+	background-color:rgb(235, 235, 235);
+	font-family: arial;
+	width: 100%;
+	display: inline-block;
+	}
+
+
+#menu_button {
+/*	background-color: red;
+*/	font-size: 17px;
+	width: 50%;
+/*	display: inline-block;
+*/	float: right;
+	text-align: right;
+	padding-top: 14px;
+	padding-right: 200px;
+	text-decoration: none;
+	color:rgb(37, 40, 45);
+
+}
+
+#logo{
+	display: inline-block;
+	font-family: times;
+	font-size: 20px;
+/*	background-color: BLUE;
+*/	width: 50%;
+	padding-top: 10px;
+	padding-left: 200px;
+
+
+}
+
+h2 a {
+/*	background-color: red;
+*/	display: inline-block;
+	font-size: 17px;
+	padding-top: 10px;
+	padding-left: 200px;
+	text-decoration: none;
+
+}
+
+
+ul {
+	padding-top: 10px;
+	padding-left: 200px;
+	text-decoration: none;
+/*	background-color: red;
+*//*	line-height: 0px;*/
+}
+
+
+#menu_button_2 {
+	padding-right: 200px;
+}
+
+p {
+	font-weight: lighter;
+/*	background-color: red;
+*/	font-size: 13px;
+/*	margin: 20px;
+*/	line-height: 17px;
+	color: blue;
+	margin-bottom: 10px;
+	/* margin-right: 400px; */
+
+}
+
+
+.wrapper {
+/*background-color: red;
+*/	margin: 150px 1400px 10px 200px;
+
+	display: inline-block;
+}
+
+.wrapper_bio {
+/*	background-color: red;
+*/	margin: 150px 800px 10px 225px;
+	display: inline-block;
+	width: 400px;
+
+}
+
+.gallery-links{
+	display: flex;
+	flex-flow: row wrap;
+justify-content: center;
+/*	background-color: yellow;
+*/	margin-left: 200px;
+	margin-right: 200px;
+}
+
+h1 {
+	/* background-color: white; */
+}
+
+
+
+}
